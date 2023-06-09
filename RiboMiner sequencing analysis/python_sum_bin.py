@@ -9,8 +9,6 @@ import os,sys
 import numpy as np
 import pandas as pd
 
-# python python_sum_bin.py miRNA_target_ribodensity_NR1_cds_codon_density_new.txt miRNA_target_ribodensity_NR1_cds_codon_density_test.txt
-# vi %s/\[//g; %s/\]//g; %s/, /\t/g
 '''input file'''
 input_file = open(sys.argv[1],'r')
 output_file = open(sys.argv[2],'w')
