@@ -6,31 +6,22 @@ samtools index **_sort_name_transcriptome_1st_read_sort.bam
 
 ### use RiboMiner to get read count at each position and use custom python script to get 60 bins density
 
-###step 1 get read at each location
-RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i **_ribo_sort.transcriptome.bam -r ALL -s 0 -t NR1 -o miRNA_target_ribodensity -U nt -S miRNA_target_filter_gene_longest.cds.transcript.info.txt
-RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i **_ribo_sort.transcriptome.bam -r ALL -s 0 -t NR1 -o non_miRNA_ribodensity -U nt -S non_miRNA_target_gene_longest.cds.transcript.info.txt
+###step1 get read at each location
+RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i **_ribo_sort.transcriptome.bam -r ALL -s 0 -t ** -o miRNA_target_ribodensity -U nt -S miRNA_target_filter_gene_longest.cds.transcript.info.txt
+RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i **_ribo_sort.transcriptome.bam -r ALL -s 0 -t ** -o non_miRNA_ribodensity -U nt -S non_miRNA_target_gene_longest.cds.transcript.info.txt
 
-###step 2 divide transcripts into 60 bins
-python python_sum_bin.py non_miRNA_ribodensity_fztR2_cds_nt_density.txt non_miRNA_ribodensity_fztR2_cds_nt_density_60bins.txt
-vi %s/\[//g; %s/\]//g; %s/, /\t/g
+###step2 divide transcripts into 60 bins
+python python_sum_bin.py non_miRNA_ribodensity_**_cds_nt_density.txt non_miRNA_ribodensity_**_cds_nt_density_60bins.txt
+###vi format output file
+%s/\[//g; %s/\]//g; %s/, /\t/g
 
 ###step3 normalized read by using library factor from uniquely_mapped_reads_ribo_rna.txt
-python normalized_bin.py non_miRNA_ribodensity_fztR3_cds_nt_density_60bins.txt 23487695 non_miRNA_ribodensity_fztR3_cds_nt_density_60bins_normalized.txt
-vi %s/,/\t/g
+python normalized_bin.py non_miRNA_ribodensity_**_cds_nt_density_60bins.txt [library factor number] non_miRNA_ribodensity_**_cds_nt_density_60bins_normalized.txt
+###vi format output file
+vi %s/,/\t/g for out
 
-###step4
-enrichmentMeanDensity -i non_miRNA_ribodensity_NR1_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_NR2_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_NR3_cds_nt_density_60bins_normalized.txt -o non_miRNA_ribodensity_60bins_normalized_N_mean.txt
+###step4 average the bioreplicated density
+enrichmentMeanDensity -i non_miRNA_ribodensity_R1_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_R2_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_R3_cds_nt_density_60bins_normalized.txt -o non_miRNA_ribodensity_60bins_normalized_R_mean.txt
 
-###step 5
+###step5
 python enrichment_FC.py miRNA_target_ribodensity_60bins_normalized_N_mean.txt,miRNA_target_ribodensity_60bins_normalized_fzt_mean.txt miRNA_target_ribodensity_60bins_normalized_fzt_N
-
-############
-### get first read from pair-end file
-nohup samtools view -h -f 0x0040 fztR3_sort_name_transcriptome.bam >fztR3_sort_name_transcriptome_1st_read.bam &
-nohup samtools sort NR1_sort_name_transcriptome_1st_read.bam -o NR1_sort_name_transcriptome_1st_read_sort.bam &
-samtools index NR1_sort_name_transcriptome_1st_read_sort.bam 
-
-##
-RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i NR1_sort_name_transcriptome_1st_read_sort.bam -r ALL -s 0 -t NR1 -o miRNA_target_RNAdensity -U nt -S miRNA_target_filter_gene_longest.cds.transcript.info.txt
-RiboDensityAtEachPosition -c longest.cds.trasncripts.info.txt -i NR1_sort_name_transcriptome_1st_read_sort.bam -r ALL -s 0 -t NR1 -o non_miRNA_RNAdensity -U nt -S non_miRNA_target_gene_longest.cds.transcript.info.txt
-
