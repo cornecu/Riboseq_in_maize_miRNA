@@ -1,0 +1,25 @@
+###STAR index genome for riboseq 50bp single end v4
+STAR --runThreadN 16 --runMode genomeGenerate --genomeDir /opt/home/thompsonlab/Riboseq_HY/reference_v4_Riboseq_STAR --genomeFastaFiles /opt/home/thompsonlab/Riboseq_HY/v4/maize.fa --sjdbGTFfile /opt/home/thompsonlab/Riboseq_HY/ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf --sjdbOverhang 49
+
+###STAR index genome for RNA-seq 150bp pair-end
+STAR --runThreadN 16 --runMode genomeGenerate --genomeDir /opt/home/thompsonlab/Riboseq_HY/reference_v4_RNAseq_STAR --genomeFastaFiles /opt/home/thompsonlab/Riboseq_HY/v4/maize.fa --sjdbGTFfile /opt/home/thompsonlab/Riboseq_HY/ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf --sjdbOverhang 149
+
+### STAR map Riboseq trimmed data
+STAR --runThreadN 16 --genomeDir Riboseq_HY/reference_v4_Riboseq_STAR/ --readFilesIn Riboseq_HY/Riboseq_merge_sep18_19/trimmed_fq/**.3adapter4clips.5adapter4clips.length1.noNCBIrRNAnotRNA.fastq --alignIntronMin 20 --outSAMtype BAM Unsorted --sjdbGTFfile Riboseq_HY/ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf --sjdbOverhang 49 --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 12 --outFilterMultimapNmax 1 --quantMode TranscriptomeSAM --outSAMattributes All --outFileNamePrefix Riboseq_HY/Riboseq_merge_sep18_19/**_STAR_v4/ &
+
+### sort bam file
+samtools sort -o **_sort.bam Aligned.out.bam
+samtools view -h -o out.sam in.bam
+
+### count the reads
+htseq-count -s no -t CDS **_sort.sam Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf> **_riboseq_sort.cds.count.txt
+
+###STAR map RNA-seq trimmed data
+STAR --runThreadN 16 --genomeDir Riboseq_HY/reference_v4_RNAseq_STAR/ --readFilesIn Riboseq_HY/RNA-seq/trimmed_fa/**_R1_001_val_1.fq Riboseq_HY/RNA-seq/trimmed_fa/**_R2_001_val_2.fq --alignIntronMin 20 --outSAMtype BAM Unsorted --sjdbGTFfile Riboseq_HY/ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf --sjdbOverhang 149 --outFilterScoreMinOverLread 0 --outFilterMatchNminOverLread 0 --outFilterMatchNmin 40 --quantMode TranscriptomeSAM --outSAMattributes All --outFilterMultimapNmax 1 --outFileNamePrefix Riboseq_HY/RNA-seq/**_STAR_v4/
+
+### sort bam files
+samtools sort -n -o **_mRNA.sort.name.bam Aligned.out.bam &
+samtools view -h -o out.sam in.bam
+
+### count the reads
+htseq-count -s reverse -i gene_id **_mRNA.sort.name.sam Zea_mays.B73_RefGen_v4.49.ribocode_step7.gtf> **_mRNA_gene_count.txt
