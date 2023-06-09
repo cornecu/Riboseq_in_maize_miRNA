@@ -1,1 +1,10 @@
+###read distribution use riboseq as example
+MetageneAnalysisForTheWholeRegions -f attributes_all_nooffset_cytoplasmic.txt -c longest.cds.trasncripts.info.txt -o ** -b 30,90,30 -l 100 -n 10 -m 1 -e 0 --plot yes
 
+###periodicity for riboseq
+RiboDensityOfDiffFrames -i N1_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 13,13,12,12,13,13,14,14,14,14 -t N1_ribo_cyto -o N1_cyto_ribo_27_36 --plot yes
+RiboDensityOfDiffFrames -i N2_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 13,12,12,13,13,13,14,13,14,14 -t N2_ribo_cyto -o N2_cyto_ribo_27_36 --plot yes
+RiboDensityOfDiffFrames -i N3_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 12,12,12,12,13,13,13,14,14,14 -t N3_ribo_cyto -o N3_cyto_ribo_27_36 --plot yes
+RiboDensityOfDiffFrames -i fzt1_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 11,12,12,13,13,13,13,13,14,14 -t fzt1_ribo_cyto -o fzt1_cyto_ribo_27_36 --plot yes
+RiboDensityOfDiffFrames -i fzt2_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 13,12,12,13,13,13,13,13,14,14 -t fzt2_ribo_cyto -o fzt2_cyto_ribo_27_36 --plot yes
+RiboDensityOfDiffFrames -i fzt3_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 14,12,12,13,13,13,13,13,14,14 -t fzt3_ribo_cyto -o fzt3_cyto_ribo_27_36 --plot yes
