@@ -16,12 +16,10 @@ python python_sum_bin.py non_miRNA_ribodensity_**_cds_nt_density.txt non_miRNA_r
 %s/\[//g; %s/\]//g; %s/, /\t/g
 
 ###step3 normalized read by using library factor from uniquely_mapped_reads_ribo_rna.txt
-python normalized_bin.py non_miRNA_ribodensity_**_cds_nt_density_60bins.txt [library factor number] non_miRNA_ribodensity_**_cds_nt_density_60bins_normalized.txt
-###vi format output file
-vi %s/,/\t/g for out
+
 
 ###step4 average the bioreplicated density
-enrichmentMeanDensity -i non_miRNA_ribodensity_R1_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_R2_cds_nt_density_60bins_normalized.txt,non_miRNA_ribodensity_R3_cds_nt_density_60bins_normalized.txt -o non_miRNA_ribodensity_60bins_normalized_R_mean.txt
+
 
 ###step5
-python enrichment_FC.py miRNA_target_ribodensity_60bins_normalized_N_mean.txt,miRNA_target_ribodensity_60bins_normalized_fzt_mean.txt miRNA_target_ribodensity_60bins_normalized_fzt_N
+
