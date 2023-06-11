@@ -1,4 +1,4 @@
-# ECU_ThompsonLab
+#Hailong_in_Riboseq
 
 This repository is used for analyzing the riboseq and RNAseq by Hailong Yang described in the publication. We briefly include the detailed commands/scripts/codes used/generated in the process of analysis.
 
