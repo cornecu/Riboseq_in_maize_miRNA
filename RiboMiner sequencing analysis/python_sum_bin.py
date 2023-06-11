@@ -9,8 +9,6 @@ import os,sys
 import numpy as np
 import pandas as pd
 
-# python python_sum_bin.py miRNA_target_ribodensity_NR1_cds_codon_density_new.txt miRNA_target_ribodensity_NR1_cds_codon_density_test.txt
-# vi %s/\[//g; %s/\]//g; %s/, /\t/g
 '''input file'''
 input_file = open(sys.argv[1],'r')
 output_file = open(sys.argv[2],'w')
@@ -27,12 +25,8 @@ with input_file as my_file:
 for gene in read_counts_vector:
   # Converting string to list
   gene_new = gene.split('\t')
-  # print (type(gene))
-  # print (type(gene_new))
-  # print (gene_new)
   # convert string of list to integer of list and drop transcriptid and \n
   gene_new_new = list(map(int, gene_new[1:-1]))
-  # print (gene_new_new)
   if len(gene_new_new)<60:
    pass
   else:
