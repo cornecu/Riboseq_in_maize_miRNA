@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /Users/danfengwu/Documents/Riboseq/sequencing_submit/2020_8_31/Ribosome_occupancy_distribution/Ribo/miRNA
+cd /path/to/folder/
 
 Rscript deseq2_pca_bin_1.R
 Rscript deseq2_pca_bin_2.R
@@ -62,4 +62,3 @@ Rscript deseq2_pca_bin_57.R
 Rscript deseq2_pca_bin_58.R
 Rscript deseq2_pca_bin_59.R
 Rscript deseq2_pca_bin_60.R
-
