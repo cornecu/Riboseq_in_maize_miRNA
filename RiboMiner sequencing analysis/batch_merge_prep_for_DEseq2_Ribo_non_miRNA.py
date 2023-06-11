@@ -2,7 +2,6 @@
 # -*- coding:UTF-8 -*-
 '''
 Hailong create this scripts to batch prepare the file for DESeq2 analysis.
-
 '''
 
 import sys, os
@@ -10,8 +9,6 @@ import numpy as np
 import pandas as pd
 import glob
 ''' The glob module in python is used to retrieve files or pathnames matching a specified pattern'''
-##### import the file
-# importing packages
   
 folder_path = '/opt/home/thompsonlab/Riboseq_HY/ribominer/ribosome_distribution/Ribo/non_miRNA'
 file_list = glob.glob(folder_path + "/*.txt")
@@ -23,12 +20,6 @@ for i in range(1,len(file_list)):
     df = pd.DataFrame(data)
     ## axis =1 will tell us to merge based on the index names
     main_dataframe = pd.concat([main_dataframe, df], axis = 1)
-  
-# print(main_dataframe)
-  
-# creating a new csv file with
-# the dataframe we created
-# main_dataframe.to_csv('new_csv1.csv')
 
 for c in main_dataframe.columns:
     main_dataframe[c].to_csv(c + '.txt', index = True, sep = '\t', header = False)
