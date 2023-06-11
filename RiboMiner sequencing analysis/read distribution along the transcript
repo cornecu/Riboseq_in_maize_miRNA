@@ -17,11 +17,16 @@ python python_sum_bin.py miRNA_ribodensity_**_cds_nt_density.txt miRNA_ribodensi
 %s/\[//g; %s/\]//g; %s/, /\t/g
 
 ###step3 prepare files for DESeq2 analysis
+python batch_merge_prep_for_DEseq2_Ribo_non_miRNA.py
+python batch_merge_prep_for_DEseq2_Ribo_miRNA.py
+python batch_merge_prep_for_DEseq2_RNA_non_miRNA.py
+python batch_merge_prep_for_DEseq2_RNA_miRNA.py
 
+###step4 bash run DEseq2 analysis
+bash 60_bins_DESeq2_bash.sh
 
-
-###step4 average the bioreplicated density
-
-
-###step5
-
+###step5 sort and concate all bin result files
+python concate_all_deseq2_ribo_miRNA.py
+python concate_all_deseq2_ribo_nonmiRNA.py
+python concate_all_deseq2_RNA_miRNA.py
+python concate_all_deseq2_RNA_nonmiRNA.py
