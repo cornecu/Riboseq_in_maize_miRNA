@@ -1,0 +1,34 @@
+###install xtail
+docker pull gangxu/xtail:latest
+###Run this image
+docker start xtail
+docker exec -it xtail bash
+root@yanglab:/# R
+>library(xtail)
+> setwd("/path/to/folder/")
+> mrna<-read.table("mrna.txt", sep="\t", header = TRUE)
+> rpf<-read.table("rpf.txt", sep="\t", header = TRUE)
+> row.names(mrna)<-mrna$gene
+> mrna[1]<- NULL
+> row.names(rpf)<-rpf$gene
+> rpf[1]<- NULL
+> head(rpf)
+> condition <- c("N","N","N","fzt","fzt","fzt")
+> test.results <- xtail(mrna,rpf,condition)
+#### write the results
+>write.xtail(test.results,"test_results.txt",quote=F,sep="\t")
+>pdf("plotFCs.pdf") 
+>plotFCs(test.results)
+>dev.off()
+> pdf("plotRs.pdf")
+> plotRs(test.results)
+>dev.off()
+>pdf("volcano_plot.pdf")
+>volcanoPlot(test.results)
+>dev.off()
+
+###exit container
+# quit from R
+q()
+#quite container
+exit;
