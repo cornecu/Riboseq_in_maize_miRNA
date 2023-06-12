@@ -1,0 +1,25 @@
+###ribotricer to create index for maize chr and ctg but not Mt and Pt because they have their own RPF features
+ribotricer prepare-orfs --gtf ../ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7_start_stop_noPtMt.gtf --fasta ../v4/chr_nonchr/maize_chr_ctg.fa --min_orf_length 6 --prefix maize_chr_ctgg
+
+###learn cutoff
+ribotricer learn-cutoff --ribo_bams NR1_ribo.bam,NR2_ribo.bam,NR3_ribo.bam,fztR1_ribo.bam,fztR2_ribo.bam,fztR3_ribo.bam --rna_bams NR1_rna.bam,NR2_rna.bam,NR3_rna.bam,fztR1_rna.bam,fztR2_rna.bam,fztR3_rna.bam --prefix ribo_rna --ribotricer_index maize_chr_ctgg_candidate_orfs.tsv
+
+###recommended_cutoff results        
+sampling_ratio: 0.33
+n_samples: 20000
+ribo_phase_score_mean: 0.240
+ribo_phase_score_median: 0.240
+ribo_phase_score_sd: 0.000
+rna_phase_score_mean: 0.099
+rna_phase_score_median: 0.099
+rna_phase_score_sd: 0.000
+diff_phase_score_sampled_mean: 0.141
+diff_phase_score_sampled_median: 0.141
+diff_phase_score_sampled_sd: 0.000
+diff_phase_score_all_mean: 0.110
+diff_phase_score_all_median: 0.121
+diff_phase_score_all_sd: 0.261
+recommended_cutoff: 0.141
+
+### run the command
+ribotricer detect-orfs --bam Aligned.out.bam --ribotricer_index maize_chr_ctg_candidate_orfs.tsv --prefix * --phase_score_cutoff 0.141
