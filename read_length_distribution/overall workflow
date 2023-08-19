@@ -1,1 +1,3 @@
+step1# split the clean reads based on read length
+bash split_fq_file_basedon_length. sh
 
