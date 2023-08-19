@@ -9,6 +9,9 @@ bash split_fq_file_basedon_length. sh
 ###step2 auto map the individual fq files
 bash auto_STAR_split_fq_mapping.sh
 
-### step3 rename the individual fq mapping files
+###step3 rename the individual fq mapping files
 bash rename_split_fq_mapping_folder.sh
+
+###step4 auto sort and index bam files
+bash auto_sort_split_fq_transcriptome.sh
 
