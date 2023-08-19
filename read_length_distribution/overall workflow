@@ -1,5 +1,12 @@
+This read length distribution analysis is focusing on the cytoplasmic ribosome footprints, so we drop the plastid and mitochondria fasta sequencing
+
+### create cytoplasmic rpf genome index
+STAR --runThreadN 16 --runMode genomeGenerate --genomeDir Riboseq_HY/reference_v4_Riboseq__chr_ctg_STAR --genomeFastaFiles Riboseq_HY/v4/chr_nonchr/maize_chr_ctg.fa --sjdbGTFfile Riboseq_HY/v4/Zea_mays.B73_RefGen_v4.49.ribocode_step7_noPtMt.gtf --sjdbOverhang 49
+
 ###step1 split the clean reads based on read length
 bash split_fq_file_basedon_length. sh
 
 ###step2 auto map the individual fq files
 bash auto_STAR_split_fq_mapping.sh
+
+### step3
