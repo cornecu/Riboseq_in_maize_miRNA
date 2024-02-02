@@ -1,4 +1,4 @@
-###ribotricer to create index for maize chr and ctg but not Mt and Pt because they have their own RPF features
+###ribotricer to create index for maize chr and contig but not Mt and Pt because they have their own RPF features
 ribotricer prepare-orfs --gtf ../ribominer/Zea_mays.B73_RefGen_v4.49.ribocode_step7_start_stop_noPtMt.gtf --fasta ../v4/chr_nonchr/maize_chr_ctg.fa --min_orf_length 6 --prefix maize_chr_ctgg
 
 ###learn cutoff
