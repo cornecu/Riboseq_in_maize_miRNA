@@ -8,3 +8,6 @@ RiboDensityOfDiffFrames -i N3_ribo_cytoplasmic_transcriptome.sort.bam -c longest
 RiboDensityOfDiffFrames -i fzt1_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 11,12,12,13,13,13,13,13,14,14 -t fzt1_ribo_cyto -o fzt1_cyto_ribo_27_36 --plot yes
 RiboDensityOfDiffFrames -i fzt2_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 13,12,12,13,13,13,13,13,14,14 -t fzt2_ribo_cyto -o fzt2_cyto_ribo_27_36 --plot yes
 RiboDensityOfDiffFrames -i fzt3_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 14,12,12,13,13,13,13,13,14,14 -t fzt3_ribo_cyto -o fzt3_cyto_ribo_27_36 --plot yes
+
+### read distribution analysis of miRNA and non-miRNA targets 
+MetageneAnalysisForTheWholeRegions -f attributes_all_nooffset_cytoplasmic.txt -c longest.cds.trasncripts.info.txt -o all_miRNA_metagenewholeregion -b 30,90,30 -l 100 -n 10 -m 1 -e 0 --plot yes -S **_longest.cds.transcript.info.txt
