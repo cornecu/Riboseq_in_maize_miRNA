@@ -1,5 +1,10 @@
 ###read distribution use riboseq as example
 MetageneAnalysisForTheWholeRegions -f attributes_all_nooffset_cytoplasmic.txt -c longest.cds.trasncripts.info.txt -o ** -b 30,90,30 -l 100 -n 10 -m 1 -e 0 --plot yes
+###read distribution use RNAseq as example
+samtools view -h -f 0x0040 *_sort_name_transcriptome.bam >*_sort_name_transcriptome_1st_read.bam
+samtools sort *_sort_name_transcriptome_1st_read.bam -o *_sort_name_transcriptome_1st_read_sort.bam
+samtools index *_sort_name_transcriptome_1st_read_sort.bam
+MetageneAnalysisForTheWholeRegions -f attributes_all_nooffset_cytoplasmic_RNA.txt -c longest.cds.trasncripts.info.txt -o ** -b 30,90,30 -l 100 -n 10 -m 1 -e 0 --plot yes
 
 ###periodicity for riboseq
 RiboDensityOfDiffFrames -i N1_ribo_cytoplasmic_transcriptome.sort.bam -c longest.cds.trasncripts.info.txt -r 27,28,29,30,31,32,33,34,35,36 -s 13,13,12,12,13,13,14,14,14,14 -t N1_ribo_cyto -o N1_cyto_ribo_27_36 --plot yes
