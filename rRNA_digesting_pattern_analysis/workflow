@@ -1,6 +1,8 @@
-###rRNA fasta split
+### rRNA fasta split
 awk 'BEGIN {RS=""} /*S/{ print $0 ORS}' NCBI_zeamays_rRNA_239sequence.fasta >NCBI_zeamys_rRNA_*S.fa
 ### remove duplicate fasta files
 python remove_duplicate_fa_new.py *.fa
-
+### generate individual fasta file
+awk -F '>' '/^>/ {F=sprintf("%s.fasta", $2); print > F;next;} {print F; close(F)}' < NCBI_zeamys_rRNA_*S_noduplicate.fa
+### 
 
