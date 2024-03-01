@@ -22,11 +22,11 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 ### generate rRNA digesting pattern read count with 3 bp as a bin
     ##18S
 multiBamSummary bins -p 16 --bamfiles NR1_XR_002748737.1.sorted.bam NR2_XR_002748737.1.sorted.bam NR3_XR_002748737.1.sorted.bam fztR1_XR_002748737.1.sorted.bam fztR2_XR_002748737.1.sorted.bam fztR3_XR_002748737.1.sorted.bam -bs 3 --labels NR1 NR2 NR3 fztR1 fztR2 fztR3 -out 18S_readCounts.npz --outRawCounts 18S_readCounts.tab
-    ## 28S
+    ##28S
 multiBamSummary bins -p 16 --bamfiles NR1_XR_002749580.1.sorted.bam NR2_XR_002749580.1.sorted.bam NR3_XR_002749580.1.sorted.bam fztR1_XR_002749580.1.sorted.bam fztR2_XR_002749580.1.sorted.bam fztR3_XR_002749580.1.sorted.bam -bs 3 --labels NR1 NR2 NR3 fztR1 fztR2 fztR3 -out 28S_readCounts.npz --outRawCounts 28S_readCounts.tab
-    ## 5.8S
+    ##5.8S
 multiBamSummary bins -p 16 --bamfiles NR1_5.8S_XR_002748743.1.sorted.bam NR2_5.8S_XR_002748743.1.sorted.bam NR3_5.8S_XR_002748743.1.sorted.bam fztR1_5.8S_XR_002748743.1.sorted.bam fztR2_5.8S_XR_002748743.1.sorted.bam fztR3_5.8S_XR_002748743.1.sorted.bam -bs 3 --labels NR1 NR2 NR3 fztR1 fztR2 fztR3 -out 5.8S_readCounts.npz --outRawCounts 5.8S_readCounts.tab
-    ## 5S
+    ##5S
 multiBamSummary bins -p 16 --bamfiles NR1_5S_XR_002750225.1.sorted.bam NR2_5S_XR_002750225.1.sorted.bam NR3_5S_XR_002750225.1.sorted.bam fztR1_5S_XR_002750225.1.sorted.bam fztR2_5S_XR_002750225.1.sorted.bam fztR3_5S_XR_002750225.1.sorted.bam -bs 3 --labels NR1 NR2 NR3 fztR1 fztR2 fztR3 -out 5S_readCounts.npz --outRawCounts 5S_readCounts.tab
 
 
