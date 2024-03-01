@@ -4,5 +4,6 @@ awk 'BEGIN {RS=""} /*S/{ print $0 ORS}' NCBI_zeamays_rRNA_239sequence.fasta >NCB
 python remove_duplicate_fa_new.py *.fa
 ### generate individual fasta file
 awk -F '>' '/^>/ {F=sprintf("%s.fasta", $2); print > F;next;} {print F; close(F)}' < NCBI_zeamys_rRNA_*S_noduplicate.fa
-### 
+### mapping the fasta file
+bash bash_bowtie_rRNA_individual_mapping.sh
 
