@@ -2,3 +2,5 @@
 awk 'BEGIN {RS=""} /*S/{ print $0 ORS}' NCBI_zeamays_rRNA_239sequence.fasta >NCBI_zeamys_rRNA_*S.fa
 ### remove duplicate fasta files
 python remove_duplicate_fa_new.py *.fa
+
+
