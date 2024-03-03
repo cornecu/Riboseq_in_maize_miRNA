@@ -114,44 +114,44 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U NR1_S1_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 
 
@@ -267,44 +267,44 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U NR2_S2_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 ####################NR3#####################
 ##5S
@@ -418,44 +418,44 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U NR3_S3_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 
 ####################fztR1#####################
@@ -570,44 +570,44 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U fztR1_S4_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 
 ####################fztR2#####################
@@ -722,44 +722,44 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U fztR2_S5_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 
 ####################fztR3#####################
@@ -874,41 +874,41 @@ bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_nodupl
 bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/18S/XR_002750193.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
 
 sleep 5s
-##28S
+##25S
 
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/AH001710.2 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/NR_028022.2 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748755.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748756.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748757.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748758.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748759.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748760.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748761.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748762.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748764.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748765.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748766.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748767.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002748768.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749506.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749536.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749544.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749552.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749560.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749561.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749562.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749571.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749573.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749574.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749580.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749592.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749593.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749599.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749607.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749613.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749626.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749627.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749633.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002749634.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
-bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/28S/XR_002750196.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/AH001710.2 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/NR_028022.2 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748755.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748756.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748757.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748758.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748759.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748760.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748761.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748762.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748764.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748765.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748766.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748767.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002748768.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749506.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749536.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749544.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749552.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749560.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749561.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749562.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749571.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749573.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749574.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749580.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749592.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749593.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749599.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749607.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749613.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749626.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749627.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749633.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002749634.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
+bowtie2 -p 16 -x ~/old_machine_stuff/thompsonlab/ribomiseq/NCBI_rRNA/rRNA_noduplicate/25S/XR_002750196.1 -U fztR3_S6_R1_001_merge.3adapter4clips.5adapter4clips.length1.fastq >/dev/null
