@@ -30,3 +30,8 @@ python concate_all_deseq2_ribo_miRNA.py
 python concate_all_deseq2_ribo_nonmiRNA.py
 python concate_all_deseq2_RNA_miRNA.py
 python concate_all_deseq2_RNA_nonmiRNA.py
+
+### generate bw files for IGV visualization from Riboseq and RNAseq
+samtools sort -o *_sort.bam Aligned.out.bam &&
+samtools index *_sort.bam
+bamCoverage -b *_sort.bam -bs 10 --effectiveGenomeSize 2104350182 --normalizeUsing CPM -p 16 -o *_sort.bw
