@@ -3,3 +3,4 @@
 This repository is used for analyzing the riboseq and RNAseq by Hailong Yang described in the publication. We briefly include the customized commands/scripts/codes used/generated in the process of analysis.
 
 Please cite our paper when you use any of reported files or data in this repository: 
+Widespread changes to the translational landscape in a maize microRNA biogenesis mutant
